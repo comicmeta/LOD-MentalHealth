@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "cbo": "https://comicmeta.org/cbo/",
+        "schema": "https://schema.org/",
+        "@base": "https://comicmeta.org/example/"
+    },
+    "@type": "cbo:Comic",
+    "story": {
+        "@type": "cbo:Story",
+        "page": {
+            "@type": "cbo:Page",
+            "panel": {
+                "@type": "cbo:Panel"
+            }
+        }
+    }
+}
