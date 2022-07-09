@@ -51,16 +51,6 @@ with open(sys.argv[1]) as csvfile:
 # serialize graph to json-ld
 doc = g.serialize(format='json-ld')
 
-# compact json-ld
-context = {
-  "@context": {
-      "cbo": "https://comicmeta.org/cbo/",
-      "schema": "https://schema.org/",
-      "@base": "https://comicmeta.org/example/"
-  }
-}
-compacted = jsonld.compact(json.loads(doc), context)
-
 # frame json-ld
 frame = {
   "@context": {
@@ -80,7 +70,7 @@ frame = {
   }
 }
 
-framed = jsonld.frame(compacted, frame)
+framed = jsonld.frame(json.loads(doc), frame)
 
 # write json-ld to disk
 f = open(sys.argv[2], "w")
@@ -88,5 +78,3 @@ f.write(json.dumps(framed, indent=2))
 f.close()
 
 print('Success!')
-
-
