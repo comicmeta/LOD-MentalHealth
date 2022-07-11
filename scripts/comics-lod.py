@@ -1,3 +1,5 @@
+# comics-lod.py - script for converting comics-lod-template.csv data to json-ld
+
 import rdflib
 import csv
 import json
