@@ -37,6 +37,9 @@ ABOUT = 5
 with open(sys.argv[1]) as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 
+    #skip header row
+    next(reader)
+
     for row in reader:
         g.add((URIRef(row[COMIC]), RDF.type, CBO.Comic))
         g.add((URIRef(row[COMIC]), CBO.story, URIRef(row[STORY])))
