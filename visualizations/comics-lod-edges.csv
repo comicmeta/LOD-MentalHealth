@@ -193,4 +193,3 @@ ex:StatesOfMind_Ch6_Pg97,cbo:panel,ex:StatesOfMind_Ch6_Pg97_Panel5,Undirected,30
  ex:StatesOfMind_Ch3_Pg38,schema:about,mesh:D005059,Undirected,20,schema:about
  ogms:0000090,schema:name,"Treatment",Undirected,10,schema:name
  ogms:0000118,schema:name,"Onset",Undirected,10,schema:name
- 
