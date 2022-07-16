@@ -37,7 +37,7 @@ ABOUT = 5
 with open(sys.argv[1]) as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 
-    #skip header row
+    # skip header row
     next(reader)
 
     for row in reader:
@@ -58,21 +58,21 @@ doc = g.serialize(format='json-ld')
 
 # frame json-ld
 frame = {
-  "@context": {
-      "cbo": "https://comicmeta.org/cbo/",
-      "schema": "https://schema.org/",
-      "@base": "https://comicmeta.org/example/"
-  },
-  "@type": "cbo:Comic",
-  "story": {
-    "@type": "cbo:Story",
-    "page": {
-      "@type": "cbo:Page",
-      "panel": {
-            "@type": "cbo:Panel"
+    "@context": {
+        "cbo": "https://comicmeta.org/cbo/",
+        "schema": "https://schema.org/",
+        "@base": "https://comicmeta.org/example/"
+    },
+    "@type": "cbo:Comic",
+    "story": {
+        "@type": "cbo:Story",
+        "page": {
+            "@type": "cbo:Page",
+            "panel": {
+                "@type": "cbo:Panel"
+            }
         }
     }
-  }
 }
 
 framed = jsonld.frame(json.loads(doc), frame)
