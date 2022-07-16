@@ -3,7 +3,7 @@ Linked Open Data (LOD) Mental Health Pilot Study
 
 # Abstract
 
-Comic books and graphic novels represent a narrative format that is both easily understandable and accessible, making the visual and engaging medium a great form of [graphic medicine](https://www.graphicmedicine.org), "the intersection of comics and healthcare" (Czerwiec et al., 2020), for communicating healthcare information and sharing stories of health and illness. However, metadata describing comics publications may lack medical subject headings or descriptions of the narrative content itself, which often illustrates related topics like symptoms, treatments, and side-effects. Enriching comics metadata with Linked Open Data (LOD) offers an opportunity to enhance the discoverability of relevant comics material and content for patients, caregivers, and healthcare providers.
+Comic books and graphic novels represent a narrative format that is both easily understandable and accessible, making the visual and engaging medium a great form of [graphic medicine](https://www.graphicmedicine.org), or "the intersection of comics and healthcare" (Czerwiec et al., 2020), for communicating healthcare information and sharing stories of health and illness. However, metadata describing comics publications may lack medical subject headings or descriptions of the narrative content itself, which often illustrates related topics like symptoms, treatments, and side-effects. Enriching comics metadata with Linked Open Data (LOD) offers an opportunity to enhance the discoverability of relevant comics material and content for patients, caregivers, and healthcare providers.
 
 # References
 
