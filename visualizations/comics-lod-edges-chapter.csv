@@ -1,0 +1,91 @@
+Source,Label,Target,Type,Weight,Relationship
+ex:StatesOfMind_Ch3,schema:about,mesh:D005059,Undirected,20,schema:about
+ ex:StatesOfMind,cbo:story,ex:StatesOfMind_Ch4,Undirected,30,cbo:story
+ icnp:Acceptance,schema:name,"Acceptance",Undirected,10,schema:name
+ ex:StatesOfMind_Ch5,schema:about,mesh:D001714,Undirected,20,schema:about
+ icd10cm:R46.81,schema:name,"Obsessive Compulsive Behavior",Undirected,10,schema:name
+ meddra:10026778,schema:name,"Manic Episode",Undirected,10,schema:name
+ meddra:10037247,schema:name,"Psychotherapy",Undirected,10,schema:name
+ mesh:D030881,schema:name,"Disclosure",Undirected,10,schema:name
+ obo:MFOMD_0000057,schema:name,"Shopping",Undirected,10,schema:name
+ ex:StatesOfMind_Ch2,schema:about,obo:SYMP_0000309,Undirected,20,schema:about
+ ex:StatesOfMind_Ch6,schema:about,ogms:0000090,Undirected,20,schema:about
+ ex:StatesOfMind_Ch5,schema:about,mesh:D006760,Undirected,20,schema:about
+ meddra:10033664,schema:name,"Panic Attack",Undirected,10,schema:name
+ meddra:10042209,schema:name,"Stress",Undirected,10,schema:name
+ ex:StatesOfMind_Ch4,schema:about,medlineplus:C3496294,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,nddf:005507,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,mesh:D000374,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2,schema:about,meddra:10042209,Undirected,20,schema:about
+ ex:StatesOfMind_Ch3,schema:about,medlineplus:C3496294,Undirected,20,schema:about
+ ex:StatesOfMind_Ch6,schema:about,icnp:Acceptance,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2,schema:about,icd10cm:T14.91,Undirected,20,schema:about
+ mesh:D006993,schema:name,"Sedatives",Undirected,10,schema:name
+ ex:StatesOfMind_Ch4,schema:about,obo:GSSO_002817,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,mesh:Q000175,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,icnp:Acceptance,Undirected,20,schema:about
+ ndfrt:N0000175751,schema:name,"Mood Stabilizer",Undirected,10,schema:name
+ meddra:10021030,schema:name,"Hypomania",Undirected,10,schema:name
+ ex:StatesOfMind_Ch6,schema:about,mesh:D030881,Undirected,20,schema:about
+ meddra:10002855,schema:name,"Anxiety",Undirected,10,schema:name
+ ex:StatesOfMind,cbo:story,ex:StatesOfMind_Ch2,Undirected,30,cbo:story
+ ex:StatesOfMind_Ch5,schema:about,mesh:D000079243,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,mesh:D000124,Undirected,20,schema:about
+ ex:StatesOfMind_Ch6,schema:about,meddra:10037247,Undirected,20,schema:about
+ icd10cm:T14.91,schema:name,"Suicide Attempt",Undirected,10,schema:name
+ ex:StatesOfMind_Ch2,schema:about,nddf:005507,Undirected,20,schema:about
+ ex:StatesOfMind,cbo:story,ex:StatesOfMind_Ch6,Undirected,30,cbo:story
+ mesh:D006167,schema:name,"Guilt",Undirected,10,schema:name
+ meddra:10062752,schema:name,"Blood Lithium Level",Undirected,10,schema:name
+ ex:StatesOfMind_Ch6,schema:about,meddra:10002855,Undirected,20,schema:about
+ ex:StatesOfMind_Ch5,schema:about,icpc2p:Z11001,Undirected,20,schema:about
+ ex:StatesOfMind_Ch5,schema:about,meddra:10012402,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1,schema:about,ogms:0000118,Undirected,20,schema:about
+ mesh:D012944,schema:name,"Social Support",Undirected,10,schema:name
+ ex:StatesOfMind_Ch4,schema:about,icd10cm:T14.91,Undirected,20,schema:about
+ medlineplus:C3496294,schema:name,"Cutting",Undirected,10,schema:name
+ ex:StatesOfMind_Ch2,schema:about,mesh:D003863,Undirected,20,schema:about
+ ex:StatesOfMind,cbo:story,ex:StatesOfMind_Ch5,Undirected,30,cbo:story
+ mesh:D059020,schema:name,"Suicidal Ideation",Undirected,10,schema:name
+ ex:StatesOfMind,cbo:story,ex:StatesOfMind_Ch1,Undirected,30,cbo:story
+ ogms:0000090,schema:name,"Treatment",Undirected,10,schema:name
+ mesh:D003657,schema:name,"Decision Making",Undirected,10,schema:name
+ ex:StatesOfMind_Ch1,schema:about,mesh:D003657,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2,schema:about,mesh:D006993,Undirected,20,schema:about
+ ex:StatesOfMind,cbo:story,ex:StatesOfMind_Ch3,Undirected,30,cbo:story
+ ex:StatesOfMind_Ch6,schema:about,mesh:D001714,Undirected,20,schema:about
+ ex:StatesOfMind_Ch3,schema:about,mesh:D059020,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,mesh:D001714,Undirected,20,schema:about
+ mesh:D001523,schema:name,"Mental Disorder",Undirected,10,schema:name
+ mesh:D001714,schema:name,"Bipolar Disorder",Undirected,10,schema:name
+ ex:StatesOfMind_Ch5,schema:about,meddra:10021030,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1,schema:about,meddra:10033664,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,meddra:10066364,Undirected,20,schema:about
+ ex:StatesOfMind_Ch4,schema:about,mesh:D003863,Undirected,20,schema:about
+ mesh:Q000175,schema:name,"Diagnosis",Undirected,10,schema:name
+ mesh:D000079243,schema:name,"Involuntary Commitment",Undirected,10,schema:name
+ icpc2p:Z11001,schema:name,"Non-Compliance with Medication",Undirected,10,schema:name
+ ex:StatesOfMind_Ch5,schema:about,meddra:10062752,Undirected,20,schema:about
+ ex:StatesOfMind_Ch3,schema:about,mesh:D012944,Undirected,20,schema:about
+ obo:SYMP_0000309,schema:name,"Loss of Appetite",Undirected,10,schema:name
+ mesh:D003863,schema:name,"Depression",Undirected,10,schema:name
+ ex:StatesOfMind_Ch3,schema:about,mesh:D006167,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1,schema:about,mesh:D001523,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2,schema:about,mesh:D010343,Undirected,20,schema:about
+ ogms:0000118,schema:name,"Onset",Undirected,10,schema:name
+ ex:StatesOfMind_Ch4,schema:about,obo:MFOMD_0000057,Undirected,20,schema:about
+ ex:StatesOfMind_Ch5,schema:about,ndfrt:N0000175751,Undirected,20,schema:about
+ mesh:D006760,schema:name,"Hospitalization",Undirected,10,schema:name
+ ex:StatesOfMind_Ch5,schema:about,meddra:10026778,Undirected,20,schema:about
+ meddra:10066364,schema:name,"Hypersexuality",Undirected,10,schema:name
+ mesh:D010343,schema:name,"Admission",Undirected,10,schema:name
+ ex:StatesOfMind_Ch1,schema:about,mesh:D003863,Undirected,20,schema:about
+ mesh:D000374,schema:name,"Aggression",Undirected,10,schema:name
+ obo:GSSO_002817,schema:name,"Self Loathing",Undirected,10,schema:name
+ mesh:D000124,schema:name,"Achievement",Undirected,10,schema:name
+ ex:StatesOfMind_Ch1,schema:about,icd10cm:R46.81,Undirected,20,schema:about
+ mesh:D005059,schema:name,"Euphoria",Undirected,10,schema:name
+ ex:StatesOfMind_Ch4,schema:about,mesh:D005059,Undirected,20,schema:about
+ nddf:005507,schema:name,"cyamemazine (Tercian)",Undirected,10,schema:name
+ meddra:10012402,schema:name,"Depressive Episode",Undirected,10,schema:name
+ 
