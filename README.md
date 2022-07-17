@@ -8,4 +8,3 @@ Comic books and graphic novels represent a narrative format that is both easily 
 # References
 
 Czerwiec, MK., Williams, I., Squier, S. M., Green, M. J., Myers, K. R., & Smith, S. T. (2020). *Graphic medicine manifesto.* Penn State Press.
-templates
