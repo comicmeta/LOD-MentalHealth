@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "cbo": "https://comicmeta.org/cbo/",
+        "schema": "https://schema.org/",
+        "@base": "https://comicmeta.org/example/"
+    },
+    "@id": "#StatesOfMind",
+    "@type": [
+        "schema:CreativeWork",
+        "cbo:Comic"
+    ],
+    "schema:name": "States of Mind",
+    "schema:sameAs": [
+        "http://www.worldcat.org/oclc/1057775520", 
+        "https://www.comics.org/issue/1963646/"
+    ],
+    "schema:about": [
+        {
+            "@id": "http://id.nlm.nih.gov/mesh/D001714",
+            "schema:name": "Bipolar Disorder"
+        }
+    ],
+    "cbo:writer": [
+        {
+            "@id": "http://viaf.org/viaf/10093879",
+            "@type": "schema:Person",
+            "schema:name": "Patrice Guillon"
+        },
+        {
+            "@id": "http://viaf.org/viaf/55146029508635821173",
+            "@type": "schema:Person",
+            "schema:name": "Emilie Guillon"
+        }
+    ],
+    "cbo:artist": {
+        "@id": "#SebastienSamson",
+        "@type": "schema:Person",
+        "schema:name": "Sebastien Samson"
+    }
+}
