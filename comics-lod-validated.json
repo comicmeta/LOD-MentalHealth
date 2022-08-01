@@ -1,0 +1,691 @@
+{
+  "@context": {
+    "cbo": "https://comicmeta.org/cbo/",
+    "schema": "https://schema.org/",
+    "@base": "https://comicmeta.org/example/"
+  },
+  "@id": "#StatesOfMind",
+  "@type": "cbo:Comic",
+  "cbo:story": [
+    {
+      "@id": "#StatesOfMind_Ch1",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch1_Pg14",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch1_Pg14_Panel2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/ICD10CM/R46.81",
+                "@type": "schema:Intangible",
+                "schema:name": "Obsessive Compulsive Behavior"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg14_Panel5",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D003657",
+                "@type": "schema:Intangible",
+                "schema:name": "Decision Making"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch1_Pg16",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch1_Pg16_Panel3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664",
+                "@type": "schema:Intangible",
+                "schema:name": "Panic Attack"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg16_Panel4",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg16_Panel6",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch1_Pg17",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch1_Pg17_Panel1",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg17_Panel2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg17_Panel6",
+              "@type": "cbo:Panel",
+              "schema:about": [
+                {
+                  "@id": "http://purl.bioontology.org/ontology/MESH/D003863",
+                  "@type": "schema:Intangible",
+                  "schema:name": "Depression"
+                },
+                {
+                  "@id": "http://purl.bioontology.org/ontology/MESH/D001523",
+                  "@type": "schema:Intangible",
+                  "schema:name": "Mental Disorder"
+                },
+                {
+                  "@id": "http://purl.obolibrary.org/obo/OGMS_0000118",
+                  "@type": "schema:Intangible",
+                  "schema:name": "Onset"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "#StatesOfMind_Ch2",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch2_Pg21",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch2_Pg21_Panel2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10042209",
+                "@type": "schema:Intangible",
+                "schema:name": "Stress"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch2_Pg21_Panel3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10042209"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg22",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91",
+            "@type": "schema:Intangible",
+            "schema:name": "Suicide Attempt"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg23",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg24",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg25",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg26",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D010343",
+            "@type": "schema:Intangible",
+            "schema:name": "Admission"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg27",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D010343"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg28",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch2_Pg28_Panel2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D006993",
+                "@type": "schema:Intangible",
+                "schema:name": "Sedatives"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch2_Pg28_Panel3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D006993"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg29",
+          "@type": "cbo:Page",
+          "cbo:panel": {
+            "@id": "#StatesOfMind_Ch2_Pg29_Panel3",
+            "@type": "cbo:Panel",
+            "schema:about": [
+              {
+                "@id": "http://purl.bioontology.org/ontology/NDDF/005507",
+                "@type": "schema:Intangible",
+                "schema:name": "cyamemazine (Tercian)"
+              },
+              {
+                "@id": "http://purl.obolibrary.org/obo/SYMP_0000309",
+                "@type": "schema:Intangible",
+                "schema:name": "Loss of Appetite"
+              }
+            ]
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg31",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D003863"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "#StatesOfMind_Ch3",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch3_Pg35",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch2_Pg35_Panel3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D006167",
+                "@type": "schema:Intangible",
+                "schema:name": "Guilt"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch2_Pg35_Panel4",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D006167"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch2_Pg35_Panel5",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D006167"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch3_Pg38",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D005059",
+            "@type": "schema:Intangible",
+            "schema:name": "Euphoria"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch3_Pg42",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D012944",
+            "@type": "schema:Intangible",
+            "schema:name": "Social Support"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch3_Pg46",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D059020",
+            "@type": "schema:Intangible",
+            "schema:name": "Suicidal Ideation"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch3_Pg47",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MEDLINEPLUS/C3496294",
+            "@type": "schema:Intangible",
+            "schema:name": "Cutting"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "#StatesOfMind_Ch4",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch4_Pg52",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MEDDRA/10066364",
+            "@type": "schema:Intangible",
+            "schema:name": "Hypersexuality"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg53",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MEDDRA/10066364"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg54",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D005059"
+            },
+            {
+              "@id": "http://purl.obolibrary.org/obo/MFOMD_0000057",
+              "@type": "schema:Intangible",
+              "schema:name": "Shopping"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg55",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D005059"
+            },
+            {
+              "@id": "http://purl.obolibrary.org/obo/MFOMD_0000057"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D003863"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg57",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D000374",
+            "@type": "schema:Intangible",
+            "schema:name": "Aggression"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg58",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D000374"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg61",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.obolibrary.org/obo/GSSO_002817",
+            "@type": "schema:Intangible",
+            "schema:name": "Self Loathing"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg62",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MEDLINEPLUS/C3496294"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg63",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch4_Pg63_Panel2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://www.icn.ch/icnp#Acceptance",
+                "@type": "schema:Intangible",
+                "schema:name": "Acceptance"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch4_Pg63_Panel3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://www.icn.ch/icnp#Acceptance"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch4_Pg63_Panel4",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://www.icn.ch/icnp#Acceptance"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg64",
+          "@type": "cbo:Page",
+          "cbo:panel": {
+            "@id": "#StatesOfMind_Ch4_Pg64_Panel6",
+            "@type": "cbo:Panel",
+            "schema:about": {
+              "@id": "http://purl.bioontology.org/ontology/MEDLINEPLUS/C3496294"
+            }
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg65",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D000124",
+            "@type": "schema:Intangible",
+            "schema:name": "Achievement"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg68",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg69",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg73",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/NDDF/005507"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg74",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/ICD10CM/T14.91"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/NDDF/005507"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch4_Pg75",
+          "@type": "cbo:Page",
+          "cbo:panel": {
+            "@id": "#StatesOfMind_Ch4_Pg75_Panel5",
+            "@type": "cbo:Panel",
+            "schema:about": [
+              {
+                "@id": "http://purl.bioontology.org/ontology/MESH/Q000175",
+                "@type": "schema:Intangible",
+                "schema:name": "Diagnosis"
+              },
+              {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D001714",
+                "@type": "schema:Intangible",
+                "schema:name": "Bipolar Disorder"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "#StatesOfMind_Ch5",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch5_Pg79",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch5_Pg79_Panel5",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/NDFRT/N0000175751",
+                "@type": "schema:Intangible",
+                "schema:name": "Mood Stabilizer"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch5_Pg79_Panel6",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/NDFRT/N0000175751"
+              }
+            }
+          ],
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D001714"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/MEDDRA/10012402",
+              "@type": "schema:Intangible",
+              "schema:name": "Depressive Episode"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/MEDDRA/10026778",
+              "@type": "schema:Intangible",
+              "schema:name": "Manic Episode"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/MEDDRA/10021030",
+              "@type": "schema:Intangible",
+              "schema:name": "Hypomania"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch5_Pg86",
+          "@type": "cbo:Page",
+          "cbo:panel": {
+            "@id": "#StatesOfMind_Ch5_Pg86_Panel6",
+            "@type": "cbo:Panel",
+            "schema:about": {
+              "@id": "http://purl.bioontology.org/ontology/ICPC2P/Z11001",
+              "@type": "schema:Intangible",
+              "schema:name": "Non-Compliance with Medication"
+            }
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch5_Pg87",
+          "@type": [
+            "cbo:Page",
+            "cbo:Panel"
+          ],
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch5_Pg87"
+            },
+            {
+              "@id": "#StatesOfMind_Ch5_Pg87_Panel3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10062752",
+                "@type": "schema:Intangible",
+                "schema:name": "Blood Lithium Level"
+              }
+            }
+          ],
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/ICPC2P/Z11001"
+          }
+        },
+        {
+          "@id": "#StatesOfMind_Ch5_Pg88",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch5_Pg88_Panel1",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10021030"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch5_Pg88_Panel2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MESH/D000079243",
+                "@type": "schema:Intangible",
+                "schema:name": "Involuntary Commitment"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch5_Pg89",
+          "@type": "cbo:Page",
+          "schema:about": {
+            "@id": "http://purl.bioontology.org/ontology/MESH/D006760",
+            "@type": "schema:Intangible",
+            "schema:name": "Hospitalization"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "#StatesOfMind_Ch6",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch6_Pg97",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch6_Pg97_Panel4",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10002855",
+                "@type": "schema:Intangible",
+                "schema:name": "Anxiety"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch6_Pg97_Panel5",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10002855"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch6_Pg97_Panel6",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10002855"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch6_Pg100",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D030881",
+              "@type": "schema:Intangible",
+              "schema:name": "Disclosure"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D001714"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch6_Pg106",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D001714"
+            },
+            {
+              "@id": "http://www.icn.ch/icnp#Acceptance"
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch6_Pg107",
+          "@type": "cbo:Page",
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MESH/D001714"
+            },
+            {
+              "@id": "http://purl.bioontology.org/ontology/MEDDRA/10037247",
+              "@type": "schema:Intangible",
+              "schema:name": "Psychotherapy"
+            },
+            {
+              "@id": "http://purl.obolibrary.org/obo/OGMS_0000090",
+              "@type": "schema:Intangible",
+              "schema:name": "Treatment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -43,14 +43,20 @@ with open(sys.argv[1]) as csvfile:
     for row in reader:
         g.add((URIRef(row[COMIC]), RDF.type, CBO.Comic))
         g.add((URIRef(row[COMIC]), CBO.story, URIRef(row[STORY])))
+        g.add((URIRef(row[STORY]), RDF.type, CBO.Story))
         g.add((URIRef(row[STORY]), CBO.page, URIRef(row[PAGE])))
+        g.add((URIRef(row[PAGE]), RDF.type, CBO.Page))
+
 
         if row[PANEL] != '':
             g.add((URIRef(row[PAGE]), CBO.panel, URIRef(row[PANEL])))
+            g.add((URIRef(row[PANEL]), RDF.type, CBO.Panel))
             g.add((URIRef(row[PANEL]), SCHEMA.about, URIRef(row[ABOUT])))
+            g.add((URIRef(row[ABOUT]), RDF.type, SCHEMA.Intangible)) 
             g.add((URIRef(row[ABOUT]), SCHEMA.name, Literal(row[LABEL])))
         else:
             g.add((URIRef(row[PAGE]), SCHEMA.about, URIRef(row[ABOUT])))
+            g.add((URIRef(row[ABOUT]), RDF.type, SCHEMA.Intangible))
             g.add((URIRef(row[ABOUT]), SCHEMA.name, Literal(row[LABEL])))
 
 # serialize graph to json-ld
