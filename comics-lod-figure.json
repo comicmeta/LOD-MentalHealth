@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "cbo": "https://comicmeta.org/cbo/",
+        "schema": "https://schema.org/",
+        "@base": "https://comicmeta.org/example/"
+    },
+    "@id": "#StatesOfMind",
+    "@type": "cbo:Comic",
+    "cbo:story": [
+        {
+            "@id": "#StatesOfMind_Ch1",
+            "@type": "cbo:Story",
+            "cbo:page": [
+                {
+                    "@id": "#StatesOfMind_Ch1_Pg16",
+                    "@type": "cbo:Page",
+                    "cbo:panel": [
+                        {
+                            "@id": "#StatesOfMind_Ch1_Pg16_Panel4",
+                            "@type": "cbo:Panel",
+                            "schema:about": {
+                                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664",
+                                "@type": "schema:Intangible",
+                                "schema:name": "Panic Attack"
+                            }
+                        },
+                        {
+                            "@id": "#StatesOfMind_Ch1_Pg16_Panel5",
+                            "@type": "cbo:Panel",
+                            "schema:about": {
+                                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+
