@@ -17,6 +17,14 @@ A script was then utilized to parse and process the template data ([comics-lod.p
 
 The resulting graph contained about 76 pages or panels illustrating topics related to mental health, and a total of 37 healthcare terms from 11 LOD healthcare ontologies ([images/graph-full.png](images/graph-full.png)).
 
+# How To
+
+Open a terminal window and execute the ([comics-lod.py](scripts/comics-lod.py)) script, passing the source data location ([comics-lod.csv](data/comics-lod.csv)) and the target output location ([comics-lod.json](comics-lod.json)). This command will parse source data created using the ([comics-lod-template.csv](templates/comics-lod.template.csv)) template, and output an RDF graph encoded as JSON-LD.
+
+```
+python3 scripts/comics-lod.py data/comics-lod.csv comics-lod.json
+```
+
 # Summary
 
 An opportunity exists to better link metadata for comics and comics content to common healthcare vocabularies and ontologies, potentially enhancing the discovery of distinct comics content for specific medical terms and healthcare topics, while also better enabling the potential of this content to be reused, especially in patient and provider education.
