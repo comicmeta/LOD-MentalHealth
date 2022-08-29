@@ -15,7 +15,7 @@ To achieve this objective, a domain model of comics content from the [Comic Book
 
 A script was then utilized to parse and process the template data ([comics-lod.py](scripts/comics-lod.py)), converting that data to an RDF graph and finally serializing it to JSON-LD ([comics-lod.json](comics-lod.json)), a common data format for creating Linked Data that is both easy to read and write, as well as embed on webpages between script tags.
 
-The resulting graph contained about 76 pages or panels illustrating topics related to mental health, and a total of 37 healthcare terms from 11 LOD healthcare ontologies ([images/graph-full.png](images/graph-full.png)).
+The resulting graph contained about 76 pages or panels illustrating topics related to mental health, and a total of 37 healthcare terms from 11 LOD healthcare ontologies ([visualizations/comics-lod-graph.png](visualizations/comics-lod-graph.png)).
 
 # How To
 
