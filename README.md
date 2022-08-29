@@ -19,10 +19,16 @@ The resulting graph contained about 76 pages or panels illustrating topics relat
 
 # How To
 
-Open a terminal window and execute the ([comics-lod.py](scripts/comics-lod.py)) script, passing the source data location ([comics-lod.csv](data/comics-lod.csv)) and the target output location ([comics-lod.json](comics-lod.json)). This command will parse source data created using the ([comics-lod-template.csv](templates/comics-lod.template.csv)) template, and output an RDF graph encoded as JSON-LD.
+Open a terminal window and execute the [comics-lod.py](scripts/comics-lod.py) script, passing the source data location ([comics-lod.csv](data/comics-lod.csv)) and the target output location ([comics-lod.json](comics-lod.json)). This command will parse source data created using the ([comics-lod-template.csv](templates/comics-lod.template.csv)) template, and output an RDF graph encoded as JSON-LD.
 
 ```
 python3 scripts/comics-lod.py data/comics-lod.csv comics-lod.json
+```
+
+After generating the RDF graph and JSON-LD output, the results can then be visualized using tools like [Gephi](https://gephi.org/). Execute the [comics-lod-gephi.py](scripts/comics-lod-gephi.py) script to generate a set of CSV files containing all nodes and edge in the results ([visualizations/comics-lod-nodes.csv](visualizations/comics-lod-nodes.csv) and [visualizations/comics-lod-edges.csv](visualizations/comics-lod-edges.csv)), then import to Gephi.
+
+```
+python3 scripts/comics-lod-gephi.py
 ```
 
 # Summary
