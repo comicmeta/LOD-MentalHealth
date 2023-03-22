@@ -1,0 +1,73 @@
+Source,Label,Target,Type,Weight,Relationship
+ex:StatesOfMind_Ch1_Pg17,rdf:type,cbo:Page,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch2_Pg21_P3,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch1_Pg17_P1,schema:about,meddra:10033664,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2_Pg21_P2,schema:about,meddra:10042209,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2_Pg21,cbo:panel,ex:StatesOfMind_Ch2_Pg21_P2,Undirected,30,cbo:panel
+ ncit:C113630,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ ncit:C95555,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch1_Pg17_P1,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch1_Pg16,rdf:type,cbo:Page,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch2_Pg29_P3,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ meddra:10033664,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch2_Pg29,rdf:type,cbo:Page,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch5_Pg88,rdf:type,cbo:Page,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch5_Pg88_P2,schema:about,meddra:10080523,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1_Pg17_P2,schema:about,meddra:10033664,Undirected,20,schema:about
+ comics_1963646:3467081,cbo:page,ex:StatesOfMind_Ch2_Pg21,Undirected,40,cbo:page
+ comics:1963646,cbo:story,comics_1963646:3467081,Undirected,50,cbo:story
+ ex:StatesOfMind_Ch2_Pg21,cbo:panel,ex:StatesOfMind_Ch2_Pg21_P3,Undirected,30,cbo:panel
+ ex:StatesOfMind_Ch6_Pg107,schema:about,lcsh:sh85080541,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1_Pg16_P4,schema:about,meddra:10033664,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1_Pg16_P3,schema:about,meddra:10033664,Undirected,20,schema:about
+ ex:StatesOfMind_Ch1_Pg16_P6,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ meddra:10080523,schema:name,"Involuntary Commitment",Undirected,10,schema:name
+ ex:StatesOfMind_Ch1_Pg16_P6,schema:about,meddra:10033664,Undirected,20,schema:about
+ meddra:10080523,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch2_Pg21_P3,schema:about,meddra:10042209,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2_Pg21_P2,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ comics_1963646:3467078,rdf:type,cbo:Story,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch1_Pg17,cbo:panel,ex:StatesOfMind_Ch1_Pg17_P2,Undirected,30,cbo:panel
+ meddra:10016275,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch2_Pg29,cbo:panel,ex:StatesOfMind_Ch2_Pg29_P3,Undirected,30,cbo:panel
+ ex:StatesOfMind_Ch5_Pg88_G1,schema:about,meddra:10016275,Undirected,20,schema:about
+ ex:StatesOfMind_Ch5_Pg88,cbo:gutter,ex:StatesOfMind_Ch5_Pg88_G1,Undirected,35,cbo:gutter
+ comics:1963646,cbo:story,comics_1963646:3467077,Undirected,50,cbo:story
+ ncit:C79120,schema:name,"Tercian",Undirected,10,schema:name
+ lcsh:sh85080541,schema:name,"Bipolar Disorder",Undirected,10,schema:name
+ comics_1963646:3467081,cbo:page,ex:StatesOfMind_Ch2_Pg29,Undirected,40,cbo:page
+ lcsh:sh85080541,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ comics_1963646:3467086,cbo:page,ex:StatesOfMind_Ch1_Pg17,Undirected,40,cbo:page
+ meddra:10033664,schema:name,"Panic Attack",Undirected,10,schema:name
+ ncit:C113630,schema:name,"Loss of Appetite",Undirected,10,schema:name
+ meddra:10016275,schema:name,"Fear",Undirected,10,schema:name
+ ex:StatesOfMind_Ch2_Pg29_P3,schema:about,ncit:C113630,Undirected,20,schema:about
+ ex:StatesOfMind_Ch5_Pg88_G1,rdf:type,cbo:Gutter,Undirected,0,rdf:type
+ comics_1963646:3467077,rdf:type,cbo:Story,Undirected,0,rdf:type
+ comics_1963646:3467078,cbo:page,ex:StatesOfMind_Ch5_Pg88,Undirected,40,cbo:page
+ ex:StatesOfMind_Ch5_Pg88_G1,cbo:panel,ex:StatesOfMind_Ch5_Pg88_P2,Undirected,30,cbo:panel
+ ex:StatesOfMind_Ch1_Pg17,cbo:panel,ex:StatesOfMind_Ch1_Pg17_P1,Undirected,30,cbo:panel
+ ex:StatesOfMind_Ch1_Pg16,cbo:panel,ex:StatesOfMind_Ch1_Pg16_P6,Undirected,30,cbo:panel
+ ex:StatesOfMind_Ch1_Pg17_P2,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ comics:1963646,cbo:story,comics_1963646:3467086,Undirected,50,cbo:story
+ ex:StatesOfMind_Ch1_Pg16_P4,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ ncit:C95555,schema:name,"Guilt",Undirected,10,schema:name
+ ex:StatesOfMind_Ch5_Pg88,cbo:panel,ex:StatesOfMind_Ch5_Pg88_P2,Undirected,30,cbo:panel
+ meddra:10042209,schema:name,"Stress",Undirected,10,schema:name
+ ex:StatesOfMind_Ch1_Pg16_P3,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ comics_1963646:3467086,cbo:page,ex:StatesOfMind_Ch1_Pg16,Undirected,40,cbo:page
+ meddra:10042209,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch1_Pg16,cbo:panel,ex:StatesOfMind_Ch1_Pg16_P3,Undirected,30,cbo:panel
+ ex:StatesOfMind_Ch5_Pg88_P2,rdf:type,cbo:Panel,Undirected,0,rdf:type
+ ex:StatesOfMind_Ch1_Pg16,cbo:panel,ex:StatesOfMind_Ch1_Pg16_P4,Undirected,30,cbo:panel
+ comics_1963646:3467081,rdf:type,cbo:Story,Undirected,0,rdf:type
+ comics:1963646,rdf:type,cbo:Comic,Undirected,0,rdf:type
+ ncit:C79120,rdf:type,schema:Intangible,Undirected,0,rdf:type
+ comics:1963646,cbo:story,comics_1963646:3467078,Undirected,50,cbo:story
+ ex:StatesOfMind_Ch5_Pg88_G1,schema:about,ncit:C95555,Undirected,20,schema:about
+ ex:StatesOfMind_Ch2_Pg29_P3,schema:about,ncit:C79120,Undirected,20,schema:about
+ ex:StatesOfMind_Ch6_Pg107,rdf:type,cbo:Page,Undirected,0,rdf:type
+ comics_1963646:3467077,cbo:page,ex:StatesOfMind_Ch6_Pg107,Undirected,40,cbo:page
+ ex:StatesOfMind_Ch2_Pg21,rdf:type,cbo:Page,Undirected,0,rdf:type
+ comics_1963646:3467086,rdf:type,cbo:Story,Undirected,0,rdf:type
+ 

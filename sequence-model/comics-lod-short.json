@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "cbo": "https://comicmeta.org/cbo/",
+    "schema": "https://schema.org/",
+    "@base": "https://comicmeta.org/example/"
+  },
+  "@id": "https://www.comics.org/issue/1963646",
+  "@type": "cbo:Comic",
+  "cbo:story": [
+    {
+      "@id": "https://www.comics.org/issue/1963646/#3467086",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch1_Pg16",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch1_Pg16_P3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664",
+                "@type": "schema:Intangible",
+                "schema:name": "Panic Attack"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg16_P4",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg16_P6",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch1_Pg17",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch1_Pg17_P1",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch1_Pg17_P2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10033664"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://www.comics.org/issue/1963646/#3467081",
+      "@type": "cbo:Story",
+      "cbo:page": [
+        {
+          "@id": "#StatesOfMind_Ch2_Pg21",
+          "@type": "cbo:Page",
+          "cbo:panel": [
+            {
+              "@id": "#StatesOfMind_Ch2_Pg21_P2",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10042209",
+                "@type": "schema:Intangible",
+                "schema:name": "Stress"
+              }
+            },
+            {
+              "@id": "#StatesOfMind_Ch2_Pg21_P3",
+              "@type": "cbo:Panel",
+              "schema:about": {
+                "@id": "http://purl.bioontology.org/ontology/MEDDRA/10042209"
+              }
+            }
+          ]
+        },
+        {
+          "@id": "#StatesOfMind_Ch2_Pg29",
+          "@type": "cbo:Page",
+          "cbo:panel": {
+            "@id": "#StatesOfMind_Ch2_Pg29_P3",
+            "@type": "cbo:Panel",
+            "schema:about": [
+              {
+                "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79120",
+                "@type": "schema:Intangible",
+                "schema:name": "Tercian"
+              },
+              {
+                "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113630",
+                "@type": "schema:Intangible",
+                "schema:name": "Loss of Appetite"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://www.comics.org/issue/1963646/#3467078",
+      "@type": "cbo:Story",
+      "cbo:page": {
+        "@id": "#StatesOfMind_Ch5_Pg88",
+        "@type": "cbo:Page",
+        "cbo:gutter": {
+          "@id": "#StatesOfMind_Ch5_Pg88_G1",
+          "@type": "cbo:Gutter",
+          "cbo:panel": {
+            "@id": "#StatesOfMind_Ch5_Pg88_P2",
+            "@type": "cbo:Panel",
+            "schema:about": {
+              "@id": "http://purl.bioontology.org/ontology/MEDDRA/10080523",
+              "@type": "schema:Intangible",
+              "schema:name": "Involuntary Commitment"
+            }
+          },
+          "schema:about": [
+            {
+              "@id": "http://purl.bioontology.org/ontology/MEDDRA/10016275",
+              "@type": "schema:Intangible",
+              "schema:name": "Fear"
+            },
+            {
+              "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C95555",
+              "@type": "schema:Intangible",
+              "schema:name": "Guilt"
+            }
+          ]
+        },
+        "cbo:panel": {
+          "@id": "#StatesOfMind_Ch5_Pg88_P2"
+        }
+      }
+    },
+    {
+      "@id": "https://www.comics.org/issue/1963646/#3467077",
+      "@type": "cbo:Story",
+      "cbo:page": {
+        "@id": "#StatesOfMind_Ch6_Pg107",
+        "@type": "cbo:Page",
+        "schema:about": {
+          "@id": "http://id.loc.gov/authorities/subjects/sh85080541",
+          "@type": "schema:Intangible",
+          "schema:name": "Bipolar Disorder"
+        }
+      }
+    }
+  ]
+}
